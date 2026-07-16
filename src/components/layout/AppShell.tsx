@@ -3,13 +3,17 @@ import { Outlet } from "react-router-dom";
 import { Sidebar } from "./Sidebar";
 import { TopBar } from "./TopBar";
 import { ThemeToggle } from "./ThemeToggle";
+import { BrightnessControl } from "./BrightnessControl";
 
 export function AppShell() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <div className="flex h-full">
-      <ThemeToggle />
+      <div className="fixed top-4 right-4 z-50 flex items-center gap-2">
+        <BrightnessControl />
+        <ThemeToggle />
+      </div>
       <div className="hidden w-72 shrink-0 border-r border-[var(--color-border)] md:block">
         <Sidebar />
       </div>
