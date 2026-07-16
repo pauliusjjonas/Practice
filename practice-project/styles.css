@@ -1,0 +1,44 @@
+body {
+font-family: Arial;
+}
+
+h1 {
+color: #FF0000;
+font-size: 42px;
+}
+
+.productbox {
+display: flex;
+}
+
+.p1 {
+border: 1px solid #ccc;
+padding: 5px;
+margin: 2px;
+width: 150px;
+}
+
+.p1 h3 {
+font-size: 14px;
+margin: 0px;
+}
+
+.p1 p {
+font-size: 13px;
+color: #999999;
+}
+
+button {
+background: #eeeeee;
+border: 1px solid #999;
+font-size: 11px;
+padding: 3px;
+}
+
+.p1 h3 {
+color: blue;
+}
+
+a:hover {
+text-decoration: underline;
+}
