@@ -6,6 +6,18 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 5173
+    },
+    {
+      "name": "sortoutagrad",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:\\Users\\pauli\\ONEDRI~1\\Desktop\\KICKUP~1\\CLAUDE~1\\SORTOU~1\\app", "--", "--port", "5174"],
+      "port": 5174
+    },
+    {
+      "name": "sortoutagrad-3000",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:\\Users\\pauli\\ONEDRI~1\\Desktop\\KICKUP~1\\CLAUDE~1\\SORTOU~1\\app", "--", "--port", "3000"],
+      "port": 3000
     }
   ]
 }
